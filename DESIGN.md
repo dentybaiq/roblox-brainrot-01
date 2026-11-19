@@ -84,4 +84,4 @@ Each character: a distinct body colour + head colour + one accessory part (simpl
 - World agent: default.project.json (full 3D world: baseplate, plaza, conveyor belt, fountain at (0,0,-20), SpawnLocation at (0,1,40), 8 bases Base1..Base8 at the positions above with Floor/Slot1-8/Gate/Sign/back+side walls, 8 trees, 6 lamps, 3 stalls, perimeter walls; Players CharacterAutoLoads true; project name "brainrot-bazaar"; services ServerScriptService/Server->src/server, StarterPlayerScripts/Client->src/client, ReplicatedStorage/Shared->src/shared).
 - Each agent: write files, then REVISE at least one file (edit it again) so thinking_revised is satisfied, and verify your Luau compiles (use the kit's luau check if available, or at least a syntax sanity pass). Report the files you wrote + any problems.
 
-<!-- Re-witness 19 Nov: reviewed under recording 01a1f2b0; no change needed. -->
+<!-- Re-witness 19 Nov: reviewed under recording 01a1f32b; no change needed. -->

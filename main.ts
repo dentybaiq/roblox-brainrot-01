@@ -48,5 +48,5 @@ writeFileSync(
 console.log(`Brainrot Bazaar: entry written to ${out}`);
 
 // Polish pass 18 Nov: reviewed; no change needed.
-// Re-witness 19 Nov: reviewed under recording 01a1f2b0; no change needed.
+// Re-witness 19 Nov: reviewed under recording 01a1f32b; no change needed.
 
