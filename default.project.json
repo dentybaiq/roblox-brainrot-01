@@ -1,0 +1,8184 @@
+{
+  "name": "brainrot-bazaar",
+  "tree": {
+    "$className": "DataModel",
+    "Players": {
+      "$properties": {
+        "CharacterAutoLoads": true
+      }
+    },
+    "ServerScriptService": {
+      "Server": {
+        "$path": "src/server"
+      }
+    },
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "Client": {
+          "$path": "src/client"
+        }
+      }
+    },
+    "ReplicatedStorage": {
+      "Shared": {
+        "$path": "src/shared"
+      }
+    },
+    "Workspace": {
+      "$properties": {
+        "FilteringEnabled": true
+      },
+      "Baseplate": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "Locked": true,
+          "Color": [
+            0.38823,
+            0.37254,
+            0.38823
+          ],
+          "Size": [
+            512,
+            20,
+            512
+          ],
+          "CFrame": [
+            0,
+            -10,
+            0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        }
+      },
+      "Plaza": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "Locked": true,
+          "Color": [
+            0.8,
+            0.8,
+            0.8
+          ],
+          "Size": [
+            160,
+            1,
+            160
+          ],
+          "CFrame": [
+            0,
+            0.5,
+            0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        }
+      },
+      "Conveyor": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "Locked": true,
+          "Color": [
+            0.25,
+            0.25,
+            0.28
+          ],
+          "Size": [
+            140,
+            1,
+            8
+          ],
+          "CFrame": [
+            0,
+            0.5,
+            0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        }
+      },
+      "Chevron1": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "Locked": true,
+          "Color": [
+            0.6,
+            0.6,
+            0.65
+          ],
+          "Size": [
+            1,
+            0.1,
+            6
+          ],
+          "CanCollide": false,
+          "CFrame": [
+            -63,
+            1.05,
+            0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        }
+      },
+      "Chevron2": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "Locked": true,
+          "Color": [
+            0.6,
+            0.6,
+            0.65
+          ],
+          "Size": [
+            1,
+            0.1,
+            6
+          ],
+          "CanCollide": false,
+          "CFrame": [
+            -49,
+            1.05,
+            0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        }
+      },
+      "Chevron3": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "Locked": true,
+          "Color": [
+            0.6,
+            0.6,
+            0.65
+          ],
+          "Size": [
+            1,
+            0.1,
+            6
+          ],
+          "CanCollide": false,
+          "CFrame": [
+            -35,
+            1.05,
+            0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        }
+      },
+      "Chevron4": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "Locked": true,
+          "Color": [
+            0.6,
+            0.6,
+            0.65
+          ],
+          "Size": [
+            1,
+            0.1,
+            6
+          ],
+          "CanCollide": false,
+          "CFrame": [
+            -21,
+            1.05,
+            0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        }
+      },
+      "Chevron5": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "Locked": true,
+          "Color": [
+            0.6,
+            0.6,
+            0.65
+          ],
+          "Size": [
+            1,
+            0.1,
+            6
+          ],
+          "CanCollide": false,
+          "CFrame": [
+            -7,
+            1.05,
+            0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        }
+      },
+      "Chevron6": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "Locked": true,
+          "Color": [
+            0.6,
+            0.6,
+            0.65
+          ],
+          "Size": [
+            1,
+            0.1,
+            6
+          ],
+          "CanCollide": false,
+          "CFrame": [
+            7,
+            1.05,
+            0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        }
+      },
+      "Chevron7": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "Locked": true,
+          "Color": [
+            0.6,
+            0.6,
+            0.65
+          ],
+          "Size": [
+            1,
+            0.1,
+            6
+          ],
+          "CanCollide": false,
+          "CFrame": [
+            21,
+            1.05,
+            0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        }
+      },
+      "Chevron8": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "Locked": true,
+          "Color": [
+            0.6,
+            0.6,
+            0.65
+          ],
+          "Size": [
+            1,
+            0.1,
+            6
+          ],
+          "CanCollide": false,
+          "CFrame": [
+            35,
+            1.05,
+            0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        }
+      },
+      "Chevron9": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "Locked": true,
+          "Color": [
+            0.6,
+            0.6,
+            0.65
+          ],
+          "Size": [
+            1,
+            0.1,
+            6
+          ],
+          "CanCollide": false,
+          "CFrame": [
+            49,
+            1.05,
+            0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        }
+      },
+      "Chevron10": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "Locked": true,
+          "Color": [
+            0.6,
+            0.6,
+            0.65
+          ],
+          "Size": [
+            1,
+            0.1,
+            6
+          ],
+          "CanCollide": false,
+          "CFrame": [
+            63,
+            1.05,
+            0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        }
+      },
+      "FountainBasin": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "Locked": true,
+          "Color": [
+            0.7,
+            0.7,
+            0.7
+          ],
+          "Size": [
+            2,
+            16,
+            16
+          ],
+          "Shape": "Cylinder",
+          "CFrame": [
+            0,
+            1,
+            -20,
+            0.0,
+            -1.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        }
+      },
+      "FountainWater": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "Locked": true,
+          "Color": [
+            0.2,
+            0.6,
+            1.0
+          ],
+          "Size": [
+            0.5,
+            14,
+            14
+          ],
+          "Shape": "Cylinder",
+          "Transparency": 0.3,
+          "Material": "Glass",
+          "CFrame": [
+            0,
+            1.9,
+            -20,
+            0.0,
+            -1.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        }
+      },
+      "FountainSpout": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "Locked": true,
+          "Color": [
+            0.7,
+            0.7,
+            0.7
+          ],
+          "Size": [
+            2,
+            2,
+            2
+          ],
+          "Shape": "Cylinder",
+          "CFrame": [
+            0,
+            3,
+            -20,
+            0.0,
+            -1.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        }
+      },
+      "FountainTop": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "Locked": true,
+          "Color": [
+            0.2,
+            0.6,
+            1.0
+          ],
+          "Size": [
+            2,
+            2,
+            2
+          ],
+          "Shape": "Ball",
+          "Transparency": 0.3,
+          "CFrame": [
+            0,
+            4.5,
+            -20,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        }
+      },
+      "SpawnLocation": {
+        "$className": "SpawnLocation",
+        "$properties": {
+          "Anchored": true,
+          "Locked": true,
+          "Color": [
+            0.2,
+            0.8,
+            0.2
+          ],
+          "Size": [
+            8,
+            1,
+            8
+          ],
+          "Neutral": true,
+          "Duration": 0,
+          "CFrame": [
+            0,
+            1,
+            40,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        }
+      },
+      "Base1": {
+        "$className": "Model",
+        "Floor": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              1.0,
+              0.15,
+              0.15
+            ],
+            "Size": [
+              24,
+              2,
+              24
+            ],
+            "CFrame": [
+              0,
+              0,
+              -70,
+              -1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              -0.0,
+              0.0,
+              -1.0
+            ]
+          }
+        },
+        "Slot1": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              9.0,
+              1.0,
+              -64.0,
+              -1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              -0.0,
+              0.0,
+              -1.0
+            ]
+          }
+        },
+        "Slot2": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              3.0,
+              1.0,
+              -64.0,
+              -1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              -0.0,
+              0.0,
+              -1.0
+            ]
+          }
+        },
+        "Slot3": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              -3.0,
+              1.0,
+              -64.0,
+              -1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              -0.0,
+              0.0,
+              -1.0
+            ]
+          }
+        },
+        "Slot4": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              -9.0,
+              1.0,
+              -64.0,
+              -1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              -0.0,
+              0.0,
+              -1.0
+            ]
+          }
+        },
+        "Slot5": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              9.0,
+              1.0,
+              -76.0,
+              -1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              -0.0,
+              0.0,
+              -1.0
+            ]
+          }
+        },
+        "Slot6": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              3.0,
+              1.0,
+              -76.0,
+              -1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              -0.0,
+              0.0,
+              -1.0
+            ]
+          }
+        },
+        "Slot7": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              -3.0,
+              1.0,
+              -76.0,
+              -1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              -0.0,
+              0.0,
+              -1.0
+            ]
+          }
+        },
+        "Slot8": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              -9.0,
+              1.0,
+              -76.0,
+              -1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              -0.0,
+              0.0,
+              -1.0
+            ]
+          }
+        },
+        "Slot9": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              -9.0,
+              1.0,
+              -80.0,
+              -1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              -1.0
+            ]
+          }
+        },
+        "Slot10": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              -3.0,
+              1.0,
+              -80.0,
+              -1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              -1.0
+            ]
+          }
+        },
+        "Slot11": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              3.0,
+              1.0,
+              -80.0,
+              -1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              -1.0
+            ]
+          }
+        },
+        "Slot12": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              9.0,
+              1.0,
+              -80.0,
+              -1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              -1.0
+            ]
+          }
+        },
+        "Slot13": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              -9.0,
+              1.0,
+              -60.0,
+              -1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              -1.0
+            ]
+          }
+        },
+        "Slot14": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              -3.0,
+              1.0,
+              -60.0,
+              -1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              -1.0
+            ]
+          }
+        },
+        "Slot15": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              3.0,
+              1.0,
+              -60.0,
+              -1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              -1.0
+            ]
+          }
+        },
+        "Slot16": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              9.0,
+              1.0,
+              -60.0,
+              -1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              -1.0
+            ]
+          }
+        },
+        "Gate": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": false,
+            "Color": [
+              1.0,
+              0.15,
+              0.15
+            ],
+            "Size": [
+              24,
+              6,
+              1
+            ],
+            "Transparency": 0.5,
+            "CanCollide": false,
+            "CFrame": [
+              -0.0,
+              4,
+              -58.5,
+              -1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              -0.0,
+              0.0,
+              -1.0
+            ]
+          }
+        },
+        "Sign": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Size": [
+              8,
+              3,
+              0.5
+            ],
+            "CFrame": [
+              0.0,
+              2.5,
+              -81.5,
+              -1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              -0.0,
+              0.0,
+              -1.0
+            ]
+          },
+          "SurfaceGui": {
+            "$className": "SurfaceGui",
+            "$properties": {
+              "Face": "Front",
+              "AlwaysOnTop": false,
+              "PixelsPerStud": 25
+            },
+            "SignLabel": {
+              "$className": "TextLabel",
+              "$properties": {
+                "Text": "BASE",
+                "TextScaled": true,
+                "TextXAlignment": "Center",
+                "TextYAlignment": "Center",
+                "BackgroundTransparency": 1,
+                "TextColor3": [
+                  0,
+                  0,
+                  0
+                ],
+                "Font": "GothamBold"
+              }
+            }
+          }
+        },
+        "BackWall": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.75,
+              0.11249999999999999,
+              0.11249999999999999
+            ],
+            "Size": [
+              24,
+              4,
+              1
+            ],
+            "CFrame": [
+              0.0,
+              3,
+              -81.5,
+              -1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              -0.0,
+              0.0,
+              -1.0
+            ]
+          }
+        },
+        "SideWall1": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.75,
+              0.11249999999999999,
+              0.11249999999999999
+            ],
+            "Size": [
+              1,
+              4,
+              24
+            ],
+            "CFrame": [
+              11.5,
+              3,
+              -70.0,
+              -1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              -0.0,
+              0.0,
+              -1.0
+            ]
+          }
+        },
+        "SideWall2": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.75,
+              0.11249999999999999,
+              0.11249999999999999
+            ],
+            "Size": [
+              1,
+              4,
+              24
+            ],
+            "CFrame": [
+              -11.5,
+              3,
+              -70.0,
+              -1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              -0.0,
+              0.0,
+              -1.0
+            ]
+          }
+        }
+      },
+      "Base2": {
+        "$className": "Model",
+        "Floor": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              1.0,
+              0.55,
+              0.0
+            ],
+            "Size": [
+              24,
+              2,
+              24
+            ],
+            "CFrame": [
+              49.5,
+              0,
+              -49.5,
+              -0.707107,
+              0.0,
+              0.707107,
+              0.0,
+              1.0,
+              0.0,
+              -0.707107,
+              0.0,
+              -0.707107
+            ]
+          }
+        },
+        "Slot1": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              51.621,
+              1.0,
+              -38.893,
+              -0.707107,
+              0.0,
+              0.707107,
+              0.0,
+              1.0,
+              0.0,
+              -0.707107,
+              0.0,
+              -0.707107
+            ]
+          }
+        },
+        "Slot2": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              47.379,
+              1.0,
+              -43.136,
+              -0.707107,
+              0.0,
+              0.707107,
+              0.0,
+              1.0,
+              0.0,
+              -0.707107,
+              0.0,
+              -0.707107
+            ]
+          }
+        },
+        "Slot3": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              43.136,
+              1.0,
+              -47.379,
+              -0.707107,
+              0.0,
+              0.707107,
+              0.0,
+              1.0,
+              0.0,
+              -0.707107,
+              0.0,
+              -0.707107
+            ]
+          }
+        },
+        "Slot4": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              38.893,
+              1.0,
+              -51.621,
+              -0.707107,
+              0.0,
+              0.707107,
+              0.0,
+              1.0,
+              0.0,
+              -0.707107,
+              0.0,
+              -0.707107
+            ]
+          }
+        },
+        "Slot5": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              60.107,
+              1.0,
+              -47.379,
+              -0.707107,
+              0.0,
+              0.707107,
+              0.0,
+              1.0,
+              0.0,
+              -0.707107,
+              0.0,
+              -0.707107
+            ]
+          }
+        },
+        "Slot6": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              55.864,
+              1.0,
+              -51.621,
+              -0.707107,
+              0.0,
+              0.707107,
+              0.0,
+              1.0,
+              0.0,
+              -0.707107,
+              0.0,
+              -0.707107
+            ]
+          }
+        },
+        "Slot7": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              51.621,
+              1.0,
+              -55.864,
+              -0.707107,
+              0.0,
+              0.707107,
+              0.0,
+              1.0,
+              0.0,
+              -0.707107,
+              0.0,
+              -0.707107
+            ]
+          }
+        },
+        "Slot8": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              47.379,
+              1.0,
+              -60.107,
+              -0.707107,
+              0.0,
+              0.707107,
+              0.0,
+              1.0,
+              0.0,
+              -0.707107,
+              0.0,
+              -0.707107
+            ]
+          }
+        },
+        "Slot9": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              50.208,
+              1.0,
+              -62.935,
+              -0.707081,
+              0.0,
+              0.707132,
+              0.0,
+              1.0,
+              0.0,
+              -0.707132,
+              0.0,
+              -0.707081
+            ]
+          }
+        },
+        "Slot10": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              54.45,
+              1.0,
+              -58.692,
+              -0.707081,
+              0.0,
+              0.707132,
+              0.0,
+              1.0,
+              0.0,
+              -0.707132,
+              0.0,
+              -0.707081
+            ]
+          }
+        },
+        "Slot11": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              58.693,
+              1.0,
+              -54.449,
+              -0.707081,
+              0.0,
+              0.707132,
+              0.0,
+              1.0,
+              0.0,
+              -0.707132,
+              0.0,
+              -0.707081
+            ]
+          }
+        },
+        "Slot12": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              62.935,
+              1.0,
+              -50.207,
+              -0.707081,
+              0.0,
+              0.707132,
+              0.0,
+              1.0,
+              0.0,
+              -0.707132,
+              0.0,
+              -0.707081
+            ]
+          }
+        },
+        "Slot13": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              36.065,
+              1.0,
+              -48.793,
+              -0.707081,
+              0.0,
+              0.707132,
+              0.0,
+              1.0,
+              0.0,
+              -0.707132,
+              0.0,
+              -0.707081
+            ]
+          }
+        },
+        "Slot14": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              40.307,
+              1.0,
+              -44.551,
+              -0.707081,
+              0.0,
+              0.707132,
+              0.0,
+              1.0,
+              0.0,
+              -0.707132,
+              0.0,
+              -0.707081
+            ]
+          }
+        },
+        "Slot15": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              44.55,
+              1.0,
+              -40.308,
+              -0.707081,
+              0.0,
+              0.707132,
+              0.0,
+              1.0,
+              0.0,
+              -0.707132,
+              0.0,
+              -0.707081
+            ]
+          }
+        },
+        "Slot16": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              48.792,
+              1.0,
+              -36.065,
+              -0.707081,
+              0.0,
+              0.707132,
+              0.0,
+              1.0,
+              0.0,
+              -0.707132,
+              0.0,
+              -0.707081
+            ]
+          }
+        },
+        "Gate": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": false,
+            "Color": [
+              1.0,
+              0.55,
+              0.0
+            ],
+            "Size": [
+              24,
+              6,
+              1
+            ],
+            "Transparency": 0.5,
+            "CanCollide": false,
+            "CFrame": [
+              41.368,
+              4,
+              -41.368,
+              -0.707107,
+              0.0,
+              0.707107,
+              0.0,
+              1.0,
+              0.0,
+              -0.707107,
+              0.0,
+              -0.707107
+            ]
+          }
+        },
+        "Sign": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Size": [
+              8,
+              3,
+              0.5
+            ],
+            "CFrame": [
+              57.632,
+              2.5,
+              -57.632,
+              -0.707107,
+              0.0,
+              0.707107,
+              0.0,
+              1.0,
+              0.0,
+              -0.707107,
+              0.0,
+              -0.707107
+            ]
+          },
+          "SurfaceGui": {
+            "$className": "SurfaceGui",
+            "$properties": {
+              "Face": "Front",
+              "AlwaysOnTop": false,
+              "PixelsPerStud": 25
+            },
+            "SignLabel": {
+              "$className": "TextLabel",
+              "$properties": {
+                "Text": "BASE",
+                "TextScaled": true,
+                "TextXAlignment": "Center",
+                "TextYAlignment": "Center",
+                "BackgroundTransparency": 1,
+                "TextColor3": [
+                  0,
+                  0,
+                  0
+                ],
+                "Font": "GothamBold"
+              }
+            }
+          }
+        },
+        "BackWall": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.75,
+              0.41250000000000003,
+              0.0
+            ],
+            "Size": [
+              24,
+              4,
+              1
+            ],
+            "CFrame": [
+              57.632,
+              3,
+              -57.632,
+              -0.707107,
+              0.0,
+              0.707107,
+              0.0,
+              1.0,
+              0.0,
+              -0.707107,
+              0.0,
+              -0.707107
+            ]
+          }
+        },
+        "SideWall1": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.75,
+              0.41250000000000003,
+              0.0
+            ],
+            "Size": [
+              1,
+              4,
+              24
+            ],
+            "CFrame": [
+              57.632,
+              3,
+              -41.368,
+              -0.707107,
+              0.0,
+              0.707107,
+              0.0,
+              1.0,
+              0.0,
+              -0.707107,
+              0.0,
+              -0.707107
+            ]
+          }
+        },
+        "SideWall2": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.75,
+              0.41250000000000003,
+              0.0
+            ],
+            "Size": [
+              1,
+              4,
+              24
+            ],
+            "CFrame": [
+              41.368,
+              3,
+              -57.632,
+              -0.707107,
+              0.0,
+              0.707107,
+              0.0,
+              1.0,
+              0.0,
+              -0.707107,
+              0.0,
+              -0.707107
+            ]
+          }
+        }
+      },
+      "Base3": {
+        "$className": "Model",
+        "Floor": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              1.0,
+              1.0,
+              0.0
+            ],
+            "Size": [
+              24,
+              2,
+              24
+            ],
+            "CFrame": [
+              70,
+              0,
+              0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              1.0,
+              0.0,
+              -1.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "Slot1": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              64.0,
+              1.0,
+              9.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              1.0,
+              0.0,
+              -1.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "Slot2": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              64.0,
+              1.0,
+              3.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              1.0,
+              0.0,
+              -1.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "Slot3": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              64.0,
+              1.0,
+              -3.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              1.0,
+              0.0,
+              -1.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "Slot4": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              64.0,
+              1.0,
+              -9.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              1.0,
+              0.0,
+              -1.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "Slot5": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              76.0,
+              1.0,
+              9.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              1.0,
+              0.0,
+              -1.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "Slot6": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              76.0,
+              1.0,
+              3.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              1.0,
+              0.0,
+              -1.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "Slot7": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              76.0,
+              1.0,
+              -3.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              1.0,
+              0.0,
+              -1.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "Slot8": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              76.0,
+              1.0,
+              -9.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              1.0,
+              0.0,
+              -1.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "Slot9": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              80.0,
+              1.0,
+              -9.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              1.0,
+              0.0,
+              -1.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "Slot10": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              80.0,
+              1.0,
+              -3.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              1.0,
+              0.0,
+              -1.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "Slot11": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              80.0,
+              1.0,
+              3.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              1.0,
+              0.0,
+              -1.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "Slot12": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              80.0,
+              1.0,
+              9.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              1.0,
+              0.0,
+              -1.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "Slot13": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              60.0,
+              1.0,
+              -9.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              1.0,
+              0.0,
+              -1.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "Slot14": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              60.0,
+              1.0,
+              -3.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              1.0,
+              0.0,
+              -1.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "Slot15": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              60.0,
+              1.0,
+              3.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              1.0,
+              0.0,
+              -1.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "Slot16": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              60.0,
+              1.0,
+              9.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              1.0,
+              0.0,
+              -1.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "Gate": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": false,
+            "Color": [
+              1.0,
+              1.0,
+              0.0
+            ],
+            "Size": [
+              24,
+              6,
+              1
+            ],
+            "Transparency": 0.5,
+            "CanCollide": false,
+            "CFrame": [
+              58.5,
+              4,
+              -0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              1.0,
+              0.0,
+              -1.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "Sign": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Size": [
+              8,
+              3,
+              0.5
+            ],
+            "CFrame": [
+              81.5,
+              2.5,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              1.0,
+              0.0,
+              -1.0,
+              0.0,
+              0.0
+            ]
+          },
+          "SurfaceGui": {
+            "$className": "SurfaceGui",
+            "$properties": {
+              "Face": "Front",
+              "AlwaysOnTop": false,
+              "PixelsPerStud": 25
+            },
+            "SignLabel": {
+              "$className": "TextLabel",
+              "$properties": {
+                "Text": "BASE",
+                "TextScaled": true,
+                "TextXAlignment": "Center",
+                "TextYAlignment": "Center",
+                "BackgroundTransparency": 1,
+                "TextColor3": [
+                  0,
+                  0,
+                  0
+                ],
+                "Font": "GothamBold"
+              }
+            }
+          }
+        },
+        "BackWall": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.75,
+              0.75,
+              0.0
+            ],
+            "Size": [
+              24,
+              4,
+              1
+            ],
+            "CFrame": [
+              81.5,
+              3,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              1.0,
+              0.0,
+              -1.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "SideWall1": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.75,
+              0.75,
+              0.0
+            ],
+            "Size": [
+              1,
+              4,
+              24
+            ],
+            "CFrame": [
+              70.0,
+              3,
+              11.5,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              1.0,
+              0.0,
+              -1.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "SideWall2": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.75,
+              0.75,
+              0.0
+            ],
+            "Size": [
+              1,
+              4,
+              24
+            ],
+            "CFrame": [
+              70.0,
+              3,
+              -11.5,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              1.0,
+              0.0,
+              -1.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "Base4": {
+        "$className": "Model",
+        "Floor": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.0,
+              0.8,
+              0.1
+            ],
+            "Size": [
+              24,
+              2,
+              24
+            ],
+            "CFrame": [
+              49.5,
+              0,
+              49.5,
+              0.707107,
+              0.0,
+              0.707107,
+              0.0,
+              1.0,
+              0.0,
+              -0.707107,
+              0.0,
+              0.707107
+            ]
+          }
+        },
+        "Slot1": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              38.893,
+              1.0,
+              51.621,
+              0.707107,
+              0.0,
+              0.707107,
+              0.0,
+              1.0,
+              0.0,
+              -0.707107,
+              0.0,
+              0.707107
+            ]
+          }
+        },
+        "Slot2": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              43.136,
+              1.0,
+              47.379,
+              0.707107,
+              0.0,
+              0.707107,
+              0.0,
+              1.0,
+              0.0,
+              -0.707107,
+              0.0,
+              0.707107
+            ]
+          }
+        },
+        "Slot3": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              47.379,
+              1.0,
+              43.136,
+              0.707107,
+              0.0,
+              0.707107,
+              0.0,
+              1.0,
+              0.0,
+              -0.707107,
+              0.0,
+              0.707107
+            ]
+          }
+        },
+        "Slot4": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              51.621,
+              1.0,
+              38.893,
+              0.707107,
+              0.0,
+              0.707107,
+              0.0,
+              1.0,
+              0.0,
+              -0.707107,
+              0.0,
+              0.707107
+            ]
+          }
+        },
+        "Slot5": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              47.379,
+              1.0,
+              60.107,
+              0.707107,
+              0.0,
+              0.707107,
+              0.0,
+              1.0,
+              0.0,
+              -0.707107,
+              0.0,
+              0.707107
+            ]
+          }
+        },
+        "Slot6": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              51.621,
+              1.0,
+              55.864,
+              0.707107,
+              0.0,
+              0.707107,
+              0.0,
+              1.0,
+              0.0,
+              -0.707107,
+              0.0,
+              0.707107
+            ]
+          }
+        },
+        "Slot7": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              55.864,
+              1.0,
+              51.621,
+              0.707107,
+              0.0,
+              0.707107,
+              0.0,
+              1.0,
+              0.0,
+              -0.707107,
+              0.0,
+              0.707107
+            ]
+          }
+        },
+        "Slot8": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              60.107,
+              1.0,
+              47.379,
+              0.707107,
+              0.0,
+              0.707107,
+              0.0,
+              1.0,
+              0.0,
+              -0.707107,
+              0.0,
+              0.707107
+            ]
+          }
+        },
+        "Slot9": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              62.935,
+              1.0,
+              50.208,
+              0.707132,
+              0.0,
+              0.707081,
+              0.0,
+              1.0,
+              0.0,
+              -0.707081,
+              0.0,
+              0.707132
+            ]
+          }
+        },
+        "Slot10": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              58.692,
+              1.0,
+              54.45,
+              0.707132,
+              0.0,
+              0.707081,
+              0.0,
+              1.0,
+              0.0,
+              -0.707081,
+              0.0,
+              0.707132
+            ]
+          }
+        },
+        "Slot11": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              54.449,
+              1.0,
+              58.693,
+              0.707132,
+              0.0,
+              0.707081,
+              0.0,
+              1.0,
+              0.0,
+              -0.707081,
+              0.0,
+              0.707132
+            ]
+          }
+        },
+        "Slot12": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              50.207,
+              1.0,
+              62.935,
+              0.707132,
+              0.0,
+              0.707081,
+              0.0,
+              1.0,
+              0.0,
+              -0.707081,
+              0.0,
+              0.707132
+            ]
+          }
+        },
+        "Slot13": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              48.793,
+              1.0,
+              36.065,
+              0.707132,
+              0.0,
+              0.707081,
+              0.0,
+              1.0,
+              0.0,
+              -0.707081,
+              0.0,
+              0.707132
+            ]
+          }
+        },
+        "Slot14": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              44.551,
+              1.0,
+              40.307,
+              0.707132,
+              0.0,
+              0.707081,
+              0.0,
+              1.0,
+              0.0,
+              -0.707081,
+              0.0,
+              0.707132
+            ]
+          }
+        },
+        "Slot15": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              40.308,
+              1.0,
+              44.55,
+              0.707132,
+              0.0,
+              0.707081,
+              0.0,
+              1.0,
+              0.0,
+              -0.707081,
+              0.0,
+              0.707132
+            ]
+          }
+        },
+        "Slot16": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              36.065,
+              1.0,
+              48.792,
+              0.707132,
+              0.0,
+              0.707081,
+              0.0,
+              1.0,
+              0.0,
+              -0.707081,
+              0.0,
+              0.707132
+            ]
+          }
+        },
+        "Gate": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": false,
+            "Color": [
+              0.0,
+              0.8,
+              0.1
+            ],
+            "Size": [
+              24,
+              6,
+              1
+            ],
+            "Transparency": 0.5,
+            "CanCollide": false,
+            "CFrame": [
+              41.368,
+              4,
+              41.368,
+              0.707107,
+              0.0,
+              0.707107,
+              0.0,
+              1.0,
+              0.0,
+              -0.707107,
+              0.0,
+              0.707107
+            ]
+          }
+        },
+        "Sign": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Size": [
+              8,
+              3,
+              0.5
+            ],
+            "CFrame": [
+              57.632,
+              2.5,
+              57.632,
+              0.707107,
+              0.0,
+              0.707107,
+              0.0,
+              1.0,
+              0.0,
+              -0.707107,
+              0.0,
+              0.707107
+            ]
+          },
+          "SurfaceGui": {
+            "$className": "SurfaceGui",
+            "$properties": {
+              "Face": "Front",
+              "AlwaysOnTop": false,
+              "PixelsPerStud": 25
+            },
+            "SignLabel": {
+              "$className": "TextLabel",
+              "$properties": {
+                "Text": "BASE",
+                "TextScaled": true,
+                "TextXAlignment": "Center",
+                "TextYAlignment": "Center",
+                "BackgroundTransparency": 1,
+                "TextColor3": [
+                  0,
+                  0,
+                  0
+                ],
+                "Font": "GothamBold"
+              }
+            }
+          }
+        },
+        "BackWall": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.0,
+              0.6000000000000001,
+              0.07500000000000001
+            ],
+            "Size": [
+              24,
+              4,
+              1
+            ],
+            "CFrame": [
+              57.632,
+              3,
+              57.632,
+              0.707107,
+              0.0,
+              0.707107,
+              0.0,
+              1.0,
+              0.0,
+              -0.707107,
+              0.0,
+              0.707107
+            ]
+          }
+        },
+        "SideWall1": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.0,
+              0.6000000000000001,
+              0.07500000000000001
+            ],
+            "Size": [
+              1,
+              4,
+              24
+            ],
+            "CFrame": [
+              41.368,
+              3,
+              57.632,
+              0.707107,
+              0.0,
+              0.707107,
+              0.0,
+              1.0,
+              0.0,
+              -0.707107,
+              0.0,
+              0.707107
+            ]
+          }
+        },
+        "SideWall2": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.0,
+              0.6000000000000001,
+              0.07500000000000001
+            ],
+            "Size": [
+              1,
+              4,
+              24
+            ],
+            "CFrame": [
+              57.632,
+              3,
+              41.368,
+              0.707107,
+              0.0,
+              0.707107,
+              0.0,
+              1.0,
+              0.0,
+              -0.707107,
+              0.0,
+              0.707107
+            ]
+          }
+        }
+      },
+      "Base5": {
+        "$className": "Model",
+        "Floor": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.0,
+              0.4,
+              1.0
+            ],
+            "Size": [
+              24,
+              2,
+              24
+            ],
+            "CFrame": [
+              0,
+              0,
+              70,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "Slot1": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              -9.0,
+              1.0,
+              64.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "Slot2": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              -3.0,
+              1.0,
+              64.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "Slot3": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              3.0,
+              1.0,
+              64.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "Slot4": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              9.0,
+              1.0,
+              64.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "Slot5": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              -9.0,
+              1.0,
+              76.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "Slot6": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              -3.0,
+              1.0,
+              76.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "Slot7": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              3.0,
+              1.0,
+              76.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "Slot8": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              9.0,
+              1.0,
+              76.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "Slot9": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              9.0,
+              1.0,
+              80.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "Slot10": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              3.0,
+              1.0,
+              80.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "Slot11": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              -3.0,
+              1.0,
+              80.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "Slot12": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              -9.0,
+              1.0,
+              80.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "Slot13": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              9.0,
+              1.0,
+              60.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "Slot14": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              3.0,
+              1.0,
+              60.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "Slot15": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              -3.0,
+              1.0,
+              60.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "Slot16": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              -9.0,
+              1.0,
+              60.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "Gate": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": false,
+            "Color": [
+              0.0,
+              0.4,
+              1.0
+            ],
+            "Size": [
+              24,
+              6,
+              1
+            ],
+            "Transparency": 0.5,
+            "CanCollide": false,
+            "CFrame": [
+              0.0,
+              4,
+              58.5,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "Sign": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Size": [
+              8,
+              3,
+              0.5
+            ],
+            "CFrame": [
+              0.0,
+              2.5,
+              81.5,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "SurfaceGui": {
+            "$className": "SurfaceGui",
+            "$properties": {
+              "Face": "Front",
+              "AlwaysOnTop": false,
+              "PixelsPerStud": 25
+            },
+            "SignLabel": {
+              "$className": "TextLabel",
+              "$properties": {
+                "Text": "BASE",
+                "TextScaled": true,
+                "TextXAlignment": "Center",
+                "TextYAlignment": "Center",
+                "BackgroundTransparency": 1,
+                "TextColor3": [
+                  0,
+                  0,
+                  0
+                ],
+                "Font": "GothamBold"
+              }
+            }
+          }
+        },
+        "BackWall": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.0,
+              0.30000000000000004,
+              0.75
+            ],
+            "Size": [
+              24,
+              4,
+              1
+            ],
+            "CFrame": [
+              0.0,
+              3,
+              81.5,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "SideWall1": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.0,
+              0.30000000000000004,
+              0.75
+            ],
+            "Size": [
+              1,
+              4,
+              24
+            ],
+            "CFrame": [
+              -11.5,
+              3,
+              70.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "SideWall2": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.0,
+              0.30000000000000004,
+              0.75
+            ],
+            "Size": [
+              1,
+              4,
+              24
+            ],
+            "CFrame": [
+              11.5,
+              3,
+              70.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        }
+      },
+      "Base6": {
+        "$className": "Model",
+        "Floor": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.6,
+              0.0,
+              1.0
+            ],
+            "Size": [
+              24,
+              2,
+              24
+            ],
+            "CFrame": [
+              -49.5,
+              0,
+              49.5,
+              0.707107,
+              0.0,
+              -0.707107,
+              0.0,
+              1.0,
+              0.0,
+              0.707107,
+              0.0,
+              0.707107
+            ]
+          }
+        },
+        "Slot1": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              -51.621,
+              1.0,
+              38.893,
+              0.707107,
+              0.0,
+              -0.707107,
+              0.0,
+              1.0,
+              0.0,
+              0.707107,
+              0.0,
+              0.707107
+            ]
+          }
+        },
+        "Slot2": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              -47.379,
+              1.0,
+              43.136,
+              0.707107,
+              0.0,
+              -0.707107,
+              0.0,
+              1.0,
+              0.0,
+              0.707107,
+              0.0,
+              0.707107
+            ]
+          }
+        },
+        "Slot3": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              -43.136,
+              1.0,
+              47.379,
+              0.707107,
+              0.0,
+              -0.707107,
+              0.0,
+              1.0,
+              0.0,
+              0.707107,
+              0.0,
+              0.707107
+            ]
+          }
+        },
+        "Slot4": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              -38.893,
+              1.0,
+              51.621,
+              0.707107,
+              0.0,
+              -0.707107,
+              0.0,
+              1.0,
+              0.0,
+              0.707107,
+              0.0,
+              0.707107
+            ]
+          }
+        },
+        "Slot5": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              -60.107,
+              1.0,
+              47.379,
+              0.707107,
+              0.0,
+              -0.707107,
+              0.0,
+              1.0,
+              0.0,
+              0.707107,
+              0.0,
+              0.707107
+            ]
+          }
+        },
+        "Slot6": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              -55.864,
+              1.0,
+              51.621,
+              0.707107,
+              0.0,
+              -0.707107,
+              0.0,
+              1.0,
+              0.0,
+              0.707107,
+              0.0,
+              0.707107
+            ]
+          }
+        },
+        "Slot7": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              -51.621,
+              1.0,
+              55.864,
+              0.707107,
+              0.0,
+              -0.707107,
+              0.0,
+              1.0,
+              0.0,
+              0.707107,
+              0.0,
+              0.707107
+            ]
+          }
+        },
+        "Slot8": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              -47.379,
+              1.0,
+              60.107,
+              0.707107,
+              0.0,
+              -0.707107,
+              0.0,
+              1.0,
+              0.0,
+              0.707107,
+              0.0,
+              0.707107
+            ]
+          }
+        },
+        "Slot9": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              -50.208,
+              1.0,
+              62.935,
+              0.707081,
+              0.0,
+              -0.707132,
+              0.0,
+              1.0,
+              0.0,
+              0.707132,
+              0.0,
+              0.707081
+            ]
+          }
+        },
+        "Slot10": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              -54.45,
+              1.0,
+              58.692,
+              0.707081,
+              0.0,
+              -0.707132,
+              0.0,
+              1.0,
+              0.0,
+              0.707132,
+              0.0,
+              0.707081
+            ]
+          }
+        },
+        "Slot11": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              -58.693,
+              1.0,
+              54.449,
+              0.707081,
+              0.0,
+              -0.707132,
+              0.0,
+              1.0,
+              0.0,
+              0.707132,
+              0.0,
+              0.707081
+            ]
+          }
+        },
+        "Slot12": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              -62.935,
+              1.0,
+              50.207,
+              0.707081,
+              0.0,
+              -0.707132,
+              0.0,
+              1.0,
+              0.0,
+              0.707132,
+              0.0,
+              0.707081
+            ]
+          }
+        },
+        "Slot13": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              -36.065,
+              1.0,
+              48.793,
+              0.707081,
+              0.0,
+              -0.707132,
+              0.0,
+              1.0,
+              0.0,
+              0.707132,
+              0.0,
+              0.707081
+            ]
+          }
+        },
+        "Slot14": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              -40.307,
+              1.0,
+              44.551,
+              0.707081,
+              0.0,
+              -0.707132,
+              0.0,
+              1.0,
+              0.0,
+              0.707132,
+              0.0,
+              0.707081
+            ]
+          }
+        },
+        "Slot15": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              -44.55,
+              1.0,
+              40.308,
+              0.707081,
+              0.0,
+              -0.707132,
+              0.0,
+              1.0,
+              0.0,
+              0.707132,
+              0.0,
+              0.707081
+            ]
+          }
+        },
+        "Slot16": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              -48.792,
+              1.0,
+              36.065,
+              0.707081,
+              0.0,
+              -0.707132,
+              0.0,
+              1.0,
+              0.0,
+              0.707132,
+              0.0,
+              0.707081
+            ]
+          }
+        },
+        "Gate": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": false,
+            "Color": [
+              0.6,
+              0.0,
+              1.0
+            ],
+            "Size": [
+              24,
+              6,
+              1
+            ],
+            "Transparency": 0.5,
+            "CanCollide": false,
+            "CFrame": [
+              -41.368,
+              4,
+              41.368,
+              0.707107,
+              0.0,
+              -0.707107,
+              0.0,
+              1.0,
+              0.0,
+              0.707107,
+              0.0,
+              0.707107
+            ]
+          }
+        },
+        "Sign": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Size": [
+              8,
+              3,
+              0.5
+            ],
+            "CFrame": [
+              -57.632,
+              2.5,
+              57.632,
+              0.707107,
+              0.0,
+              -0.707107,
+              0.0,
+              1.0,
+              0.0,
+              0.707107,
+              0.0,
+              0.707107
+            ]
+          },
+          "SurfaceGui": {
+            "$className": "SurfaceGui",
+            "$properties": {
+              "Face": "Front",
+              "AlwaysOnTop": false,
+              "PixelsPerStud": 25
+            },
+            "SignLabel": {
+              "$className": "TextLabel",
+              "$properties": {
+                "Text": "BASE",
+                "TextScaled": true,
+                "TextXAlignment": "Center",
+                "TextYAlignment": "Center",
+                "BackgroundTransparency": 1,
+                "TextColor3": [
+                  0,
+                  0,
+                  0
+                ],
+                "Font": "GothamBold"
+              }
+            }
+          }
+        },
+        "BackWall": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.44999999999999996,
+              0.0,
+              0.75
+            ],
+            "Size": [
+              24,
+              4,
+              1
+            ],
+            "CFrame": [
+              -57.632,
+              3,
+              57.632,
+              0.707107,
+              0.0,
+              -0.707107,
+              0.0,
+              1.0,
+              0.0,
+              0.707107,
+              0.0,
+              0.707107
+            ]
+          }
+        },
+        "SideWall1": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.44999999999999996,
+              0.0,
+              0.75
+            ],
+            "Size": [
+              1,
+              4,
+              24
+            ],
+            "CFrame": [
+              -57.632,
+              3,
+              41.368,
+              0.707107,
+              0.0,
+              -0.707107,
+              0.0,
+              1.0,
+              0.0,
+              0.707107,
+              0.0,
+              0.707107
+            ]
+          }
+        },
+        "SideWall2": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.44999999999999996,
+              0.0,
+              0.75
+            ],
+            "Size": [
+              1,
+              4,
+              24
+            ],
+            "CFrame": [
+              -41.368,
+              3,
+              57.632,
+              0.707107,
+              0.0,
+              -0.707107,
+              0.0,
+              1.0,
+              0.0,
+              0.707107,
+              0.0,
+              0.707107
+            ]
+          }
+        }
+      },
+      "Base7": {
+        "$className": "Model",
+        "Floor": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              1.0,
+              0.4,
+              0.8
+            ],
+            "Size": [
+              24,
+              2,
+              24
+            ],
+            "CFrame": [
+              -70,
+              0,
+              0,
+              0.0,
+              0.0,
+              -1.0,
+              0.0,
+              1.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "Slot1": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              -64.0,
+              1.0,
+              -9.0,
+              0.0,
+              0.0,
+              -1.0,
+              0.0,
+              1.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "Slot2": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              -64.0,
+              1.0,
+              -3.0,
+              0.0,
+              0.0,
+              -1.0,
+              0.0,
+              1.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "Slot3": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              -64.0,
+              1.0,
+              3.0,
+              0.0,
+              0.0,
+              -1.0,
+              0.0,
+              1.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "Slot4": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              -64.0,
+              1.0,
+              9.0,
+              0.0,
+              0.0,
+              -1.0,
+              0.0,
+              1.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "Slot5": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              -76.0,
+              1.0,
+              -9.0,
+              0.0,
+              0.0,
+              -1.0,
+              0.0,
+              1.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "Slot6": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              -76.0,
+              1.0,
+              -3.0,
+              0.0,
+              0.0,
+              -1.0,
+              0.0,
+              1.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "Slot7": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              -76.0,
+              1.0,
+              3.0,
+              0.0,
+              0.0,
+              -1.0,
+              0.0,
+              1.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "Slot8": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              -76.0,
+              1.0,
+              9.0,
+              0.0,
+              0.0,
+              -1.0,
+              0.0,
+              1.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "Slot9": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              -80.0,
+              1.0,
+              9.0,
+              0.0,
+              0.0,
+              -1.0,
+              0.0,
+              1.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "Slot10": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              -80.0,
+              1.0,
+              3.0,
+              0.0,
+              0.0,
+              -1.0,
+              0.0,
+              1.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "Slot11": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              -80.0,
+              1.0,
+              -3.0,
+              0.0,
+              0.0,
+              -1.0,
+              0.0,
+              1.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "Slot12": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              -80.0,
+              1.0,
+              -9.0,
+              0.0,
+              0.0,
+              -1.0,
+              0.0,
+              1.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "Slot13": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              -60.0,
+              1.0,
+              9.0,
+              0.0,
+              0.0,
+              -1.0,
+              0.0,
+              1.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "Slot14": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              -60.0,
+              1.0,
+              3.0,
+              0.0,
+              0.0,
+              -1.0,
+              0.0,
+              1.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "Slot15": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              -60.0,
+              1.0,
+              -3.0,
+              0.0,
+              0.0,
+              -1.0,
+              0.0,
+              1.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "Slot16": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              -60.0,
+              1.0,
+              -9.0,
+              0.0,
+              0.0,
+              -1.0,
+              0.0,
+              1.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "Gate": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": false,
+            "Color": [
+              1.0,
+              0.4,
+              0.8
+            ],
+            "Size": [
+              24,
+              6,
+              1
+            ],
+            "Transparency": 0.5,
+            "CanCollide": false,
+            "CFrame": [
+              -58.5,
+              4,
+              -0.0,
+              0.0,
+              0.0,
+              -1.0,
+              0.0,
+              1.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "Sign": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Size": [
+              8,
+              3,
+              0.5
+            ],
+            "CFrame": [
+              -81.5,
+              2.5,
+              0.0,
+              0.0,
+              0.0,
+              -1.0,
+              0.0,
+              1.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ]
+          },
+          "SurfaceGui": {
+            "$className": "SurfaceGui",
+            "$properties": {
+              "Face": "Front",
+              "AlwaysOnTop": false,
+              "PixelsPerStud": 25
+            },
+            "SignLabel": {
+              "$className": "TextLabel",
+              "$properties": {
+                "Text": "BASE",
+                "TextScaled": true,
+                "TextXAlignment": "Center",
+                "TextYAlignment": "Center",
+                "BackgroundTransparency": 1,
+                "TextColor3": [
+                  0,
+                  0,
+                  0
+                ],
+                "Font": "GothamBold"
+              }
+            }
+          }
+        },
+        "BackWall": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.75,
+              0.30000000000000004,
+              0.6000000000000001
+            ],
+            "Size": [
+              24,
+              4,
+              1
+            ],
+            "CFrame": [
+              -81.5,
+              3,
+              0.0,
+              0.0,
+              0.0,
+              -1.0,
+              0.0,
+              1.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "SideWall1": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.75,
+              0.30000000000000004,
+              0.6000000000000001
+            ],
+            "Size": [
+              1,
+              4,
+              24
+            ],
+            "CFrame": [
+              -70.0,
+              3,
+              -11.5,
+              0.0,
+              0.0,
+              -1.0,
+              0.0,
+              1.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "SideWall2": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.75,
+              0.30000000000000004,
+              0.6000000000000001
+            ],
+            "Size": [
+              1,
+              4,
+              24
+            ],
+            "CFrame": [
+              -70.0,
+              3,
+              11.5,
+              0.0,
+              0.0,
+              -1.0,
+              0.0,
+              1.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "Base8": {
+        "$className": "Model",
+        "Floor": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.0,
+              0.9,
+              1.0
+            ],
+            "Size": [
+              24,
+              2,
+              24
+            ],
+            "CFrame": [
+              -49.5,
+              0,
+              -49.5,
+              -0.707107,
+              0.0,
+              -0.707107,
+              0.0,
+              1.0,
+              0.0,
+              0.707107,
+              0.0,
+              -0.707107
+            ]
+          }
+        },
+        "Slot1": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              -38.893,
+              1.0,
+              -51.621,
+              -0.707107,
+              0.0,
+              -0.707107,
+              0.0,
+              1.0,
+              0.0,
+              0.707107,
+              0.0,
+              -0.707107
+            ]
+          }
+        },
+        "Slot2": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              -43.136,
+              1.0,
+              -47.379,
+              -0.707107,
+              0.0,
+              -0.707107,
+              0.0,
+              1.0,
+              0.0,
+              0.707107,
+              0.0,
+              -0.707107
+            ]
+          }
+        },
+        "Slot3": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              -47.379,
+              1.0,
+              -43.136,
+              -0.707107,
+              0.0,
+              -0.707107,
+              0.0,
+              1.0,
+              0.0,
+              0.707107,
+              0.0,
+              -0.707107
+            ]
+          }
+        },
+        "Slot4": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              -51.621,
+              1.0,
+              -38.893,
+              -0.707107,
+              0.0,
+              -0.707107,
+              0.0,
+              1.0,
+              0.0,
+              0.707107,
+              0.0,
+              -0.707107
+            ]
+          }
+        },
+        "Slot5": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              -47.379,
+              1.0,
+              -60.107,
+              -0.707107,
+              0.0,
+              -0.707107,
+              0.0,
+              1.0,
+              0.0,
+              0.707107,
+              0.0,
+              -0.707107
+            ]
+          }
+        },
+        "Slot6": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              -51.621,
+              1.0,
+              -55.864,
+              -0.707107,
+              0.0,
+              -0.707107,
+              0.0,
+              1.0,
+              0.0,
+              0.707107,
+              0.0,
+              -0.707107
+            ]
+          }
+        },
+        "Slot7": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              -55.864,
+              1.0,
+              -51.621,
+              -0.707107,
+              0.0,
+              -0.707107,
+              0.0,
+              1.0,
+              0.0,
+              0.707107,
+              0.0,
+              -0.707107
+            ]
+          }
+        },
+        "Slot8": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              -60.107,
+              1.0,
+              -47.379,
+              -0.707107,
+              0.0,
+              -0.707107,
+              0.0,
+              1.0,
+              0.0,
+              0.707107,
+              0.0,
+              -0.707107
+            ]
+          }
+        },
+        "Slot9": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              -62.935,
+              1.0,
+              -50.208,
+              -0.707132,
+              0.0,
+              -0.707081,
+              0.0,
+              1.0,
+              0.0,
+              0.707081,
+              0.0,
+              -0.707132
+            ]
+          }
+        },
+        "Slot10": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              -58.692,
+              1.0,
+              -54.45,
+              -0.707132,
+              0.0,
+              -0.707081,
+              0.0,
+              1.0,
+              0.0,
+              0.707081,
+              0.0,
+              -0.707132
+            ]
+          }
+        },
+        "Slot11": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              -54.449,
+              1.0,
+              -58.693,
+              -0.707132,
+              0.0,
+              -0.707081,
+              0.0,
+              1.0,
+              0.0,
+              0.707081,
+              0.0,
+              -0.707132
+            ]
+          }
+        },
+        "Slot12": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              -50.207,
+              1.0,
+              -62.935,
+              -0.707132,
+              0.0,
+              -0.707081,
+              0.0,
+              1.0,
+              0.0,
+              0.707081,
+              0.0,
+              -0.707132
+            ]
+          }
+        },
+        "Slot13": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              -48.793,
+              1.0,
+              -36.065,
+              -0.707132,
+              0.0,
+              -0.707081,
+              0.0,
+              1.0,
+              0.0,
+              0.707081,
+              0.0,
+              -0.707132
+            ]
+          }
+        },
+        "Slot14": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              -44.551,
+              1.0,
+              -40.307,
+              -0.707132,
+              0.0,
+              -0.707081,
+              0.0,
+              1.0,
+              0.0,
+              0.707081,
+              0.0,
+              -0.707132
+            ]
+          }
+        },
+        "Slot15": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              -40.308,
+              1.0,
+              -44.55,
+              -0.707132,
+              0.0,
+              -0.707081,
+              0.0,
+              1.0,
+              0.0,
+              0.707081,
+              0.0,
+              -0.707132
+            ]
+          }
+        },
+        "Slot16": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.85,
+              0.85,
+              0.85
+            ],
+            "Size": [
+              4,
+              0.5,
+              4
+            ],
+            "CFrame": [
+              -36.065,
+              1.0,
+              -48.792,
+              -0.707132,
+              0.0,
+              -0.707081,
+              0.0,
+              1.0,
+              0.0,
+              0.707081,
+              0.0,
+              -0.707132
+            ]
+          }
+        },
+        "Gate": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": false,
+            "Color": [
+              0.0,
+              0.9,
+              1.0
+            ],
+            "Size": [
+              24,
+              6,
+              1
+            ],
+            "Transparency": 0.5,
+            "CanCollide": false,
+            "CFrame": [
+              -41.368,
+              4,
+              -41.368,
+              -0.707107,
+              0.0,
+              -0.707107,
+              0.0,
+              1.0,
+              0.0,
+              0.707107,
+              0.0,
+              -0.707107
+            ]
+          }
+        },
+        "Sign": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Size": [
+              8,
+              3,
+              0.5
+            ],
+            "CFrame": [
+              -57.632,
+              2.5,
+              -57.632,
+              -0.707107,
+              0.0,
+              -0.707107,
+              0.0,
+              1.0,
+              0.0,
+              0.707107,
+              0.0,
+              -0.707107
+            ]
+          },
+          "SurfaceGui": {
+            "$className": "SurfaceGui",
+            "$properties": {
+              "Face": "Front",
+              "AlwaysOnTop": false,
+              "PixelsPerStud": 25
+            },
+            "SignLabel": {
+              "$className": "TextLabel",
+              "$properties": {
+                "Text": "BASE",
+                "TextScaled": true,
+                "TextXAlignment": "Center",
+                "TextYAlignment": "Center",
+                "BackgroundTransparency": 1,
+                "TextColor3": [
+                  0,
+                  0,
+                  0
+                ],
+                "Font": "GothamBold"
+              }
+            }
+          }
+        },
+        "BackWall": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.0,
+              0.675,
+              0.75
+            ],
+            "Size": [
+              24,
+              4,
+              1
+            ],
+            "CFrame": [
+              -57.632,
+              3,
+              -57.632,
+              -0.707107,
+              0.0,
+              -0.707107,
+              0.0,
+              1.0,
+              0.0,
+              0.707107,
+              0.0,
+              -0.707107
+            ]
+          }
+        },
+        "SideWall1": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.0,
+              0.675,
+              0.75
+            ],
+            "Size": [
+              1,
+              4,
+              24
+            ],
+            "CFrame": [
+              -41.368,
+              3,
+              -57.632,
+              -0.707107,
+              0.0,
+              -0.707107,
+              0.0,
+              1.0,
+              0.0,
+              0.707107,
+              0.0,
+              -0.707107
+            ]
+          }
+        },
+        "SideWall2": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.0,
+              0.675,
+              0.75
+            ],
+            "Size": [
+              1,
+              4,
+              24
+            ],
+            "CFrame": [
+              -57.632,
+              3,
+              -41.368,
+              -0.707107,
+              0.0,
+              -0.707107,
+              0.0,
+              1.0,
+              0.0,
+              0.707107,
+              0.0,
+              -0.707107
+            ]
+          }
+        }
+      },
+      "Decor": {
+        "$className": "Folder",
+        "Tree1Trunk": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.5,
+              0.35,
+              0.15
+            ],
+            "Size": [
+              6,
+              2,
+              2
+            ],
+            "Shape": "Cylinder",
+            "CFrame": [
+              30,
+              3,
+              45,
+              0.0,
+              -1.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "Tree1Leaves": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.2,
+              0.7,
+              0.2
+            ],
+            "Size": [
+              8,
+              8,
+              8
+            ],
+            "Shape": "Ball",
+            "CFrame": [
+              30,
+              9,
+              45,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "Tree2Trunk": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.5,
+              0.35,
+              0.15
+            ],
+            "Size": [
+              6,
+              2,
+              2
+            ],
+            "Shape": "Cylinder",
+            "CFrame": [
+              -30,
+              3,
+              45,
+              0.0,
+              -1.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "Tree2Leaves": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.2,
+              0.7,
+              0.2
+            ],
+            "Size": [
+              8,
+              8,
+              8
+            ],
+            "Shape": "Ball",
+            "CFrame": [
+              -30,
+              9,
+              45,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "Tree3Trunk": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.5,
+              0.35,
+              0.15
+            ],
+            "Size": [
+              6,
+              2,
+              2
+            ],
+            "Shape": "Cylinder",
+            "CFrame": [
+              30,
+              3,
+              -45,
+              0.0,
+              -1.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "Tree3Leaves": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.2,
+              0.7,
+              0.2
+            ],
+            "Size": [
+              8,
+              8,
+              8
+            ],
+            "Shape": "Ball",
+            "CFrame": [
+              30,
+              9,
+              -45,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "Tree4Trunk": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.5,
+              0.35,
+              0.15
+            ],
+            "Size": [
+              6,
+              2,
+              2
+            ],
+            "Shape": "Cylinder",
+            "CFrame": [
+              -30,
+              3,
+              -45,
+              0.0,
+              -1.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "Tree4Leaves": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.2,
+              0.7,
+              0.2
+            ],
+            "Size": [
+              8,
+              8,
+              8
+            ],
+            "Shape": "Ball",
+            "CFrame": [
+              -30,
+              9,
+              -45,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "Tree5Trunk": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.5,
+              0.35,
+              0.15
+            ],
+            "Size": [
+              6,
+              2,
+              2
+            ],
+            "Shape": "Cylinder",
+            "CFrame": [
+              55,
+              3,
+              30,
+              0.0,
+              -1.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "Tree5Leaves": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.2,
+              0.7,
+              0.2
+            ],
+            "Size": [
+              8,
+              8,
+              8
+            ],
+            "Shape": "Ball",
+            "CFrame": [
+              55,
+              9,
+              30,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "Tree6Trunk": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.5,
+              0.35,
+              0.15
+            ],
+            "Size": [
+              6,
+              2,
+              2
+            ],
+            "Shape": "Cylinder",
+            "CFrame": [
+              -55,
+              3,
+              30,
+              0.0,
+              -1.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "Tree6Leaves": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.2,
+              0.7,
+              0.2
+            ],
+            "Size": [
+              8,
+              8,
+              8
+            ],
+            "Shape": "Ball",
+            "CFrame": [
+              -55,
+              9,
+              30,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "Tree7Trunk": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.5,
+              0.35,
+              0.15
+            ],
+            "Size": [
+              6,
+              2,
+              2
+            ],
+            "Shape": "Cylinder",
+            "CFrame": [
+              55,
+              3,
+              -30,
+              0.0,
+              -1.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "Tree7Leaves": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.2,
+              0.7,
+              0.2
+            ],
+            "Size": [
+              8,
+              8,
+              8
+            ],
+            "Shape": "Ball",
+            "CFrame": [
+              55,
+              9,
+              -30,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "Tree8Trunk": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.5,
+              0.35,
+              0.15
+            ],
+            "Size": [
+              6,
+              2,
+              2
+            ],
+            "Shape": "Cylinder",
+            "CFrame": [
+              -55,
+              3,
+              -30,
+              0.0,
+              -1.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "Tree8Leaves": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.2,
+              0.7,
+              0.2
+            ],
+            "Size": [
+              8,
+              8,
+              8
+            ],
+            "Shape": "Ball",
+            "CFrame": [
+              -55,
+              9,
+              -30,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "Lamp1Pole": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.25,
+              0.25,
+              0.28
+            ],
+            "Size": [
+              7,
+              0.6,
+              0.6
+            ],
+            "Shape": "Cylinder",
+            "CFrame": [
+              20,
+              3.5,
+              25,
+              0.0,
+              -1.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "Lamp1Globe": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              1.0,
+              0.9,
+              0.3
+            ],
+            "Size": [
+              2,
+              2,
+              2
+            ],
+            "Shape": "Ball",
+            "Material": "Neon",
+            "CFrame": [
+              20,
+              7.5,
+              25,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "Lamp2Pole": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.25,
+              0.25,
+              0.28
+            ],
+            "Size": [
+              7,
+              0.6,
+              0.6
+            ],
+            "Shape": "Cylinder",
+            "CFrame": [
+              -20,
+              3.5,
+              25,
+              0.0,
+              -1.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "Lamp2Globe": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              1.0,
+              0.9,
+              0.3
+            ],
+            "Size": [
+              2,
+              2,
+              2
+            ],
+            "Shape": "Ball",
+            "Material": "Neon",
+            "CFrame": [
+              -20,
+              7.5,
+              25,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "Lamp3Pole": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.25,
+              0.25,
+              0.28
+            ],
+            "Size": [
+              7,
+              0.6,
+              0.6
+            ],
+            "Shape": "Cylinder",
+            "CFrame": [
+              20,
+              3.5,
+              -25,
+              0.0,
+              -1.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "Lamp3Globe": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              1.0,
+              0.9,
+              0.3
+            ],
+            "Size": [
+              2,
+              2,
+              2
+            ],
+            "Shape": "Ball",
+            "Material": "Neon",
+            "CFrame": [
+              20,
+              7.5,
+              -25,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "Lamp4Pole": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.25,
+              0.25,
+              0.28
+            ],
+            "Size": [
+              7,
+              0.6,
+              0.6
+            ],
+            "Shape": "Cylinder",
+            "CFrame": [
+              -20,
+              3.5,
+              -25,
+              0.0,
+              -1.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "Lamp4Globe": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              1.0,
+              0.9,
+              0.3
+            ],
+            "Size": [
+              2,
+              2,
+              2
+            ],
+            "Shape": "Ball",
+            "Material": "Neon",
+            "CFrame": [
+              -20,
+              7.5,
+              -25,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "Lamp5Pole": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.25,
+              0.25,
+              0.28
+            ],
+            "Size": [
+              7,
+              0.6,
+              0.6
+            ],
+            "Shape": "Cylinder",
+            "CFrame": [
+              0,
+              3.5,
+              60,
+              0.0,
+              -1.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "Lamp5Globe": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              1.0,
+              0.9,
+              0.3
+            ],
+            "Size": [
+              2,
+              2,
+              2
+            ],
+            "Shape": "Ball",
+            "Material": "Neon",
+            "CFrame": [
+              0,
+              7.5,
+              60,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "Lamp6Pole": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.25,
+              0.25,
+              0.28
+            ],
+            "Size": [
+              7,
+              0.6,
+              0.6
+            ],
+            "Shape": "Cylinder",
+            "CFrame": [
+              0,
+              3.5,
+              -55,
+              0.0,
+              -1.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "Lamp6Globe": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              1.0,
+              0.9,
+              0.3
+            ],
+            "Size": [
+              2,
+              2,
+              2
+            ],
+            "Shape": "Ball",
+            "Material": "Neon",
+            "CFrame": [
+              0,
+              7.5,
+              -55,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "Stall1Counter": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.5,
+              0.35,
+              0.15
+            ],
+            "Size": [
+              6,
+              2,
+              3
+            ],
+            "CFrame": [
+              -25,
+              2,
+              -35,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "Stall1Post1": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.25,
+              0.25,
+              0.28
+            ],
+            "Size": [
+              0.5,
+              4,
+              0.5
+            ],
+            "CFrame": [
+              -27.75,
+              4,
+              -36.25,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "Stall1Post2": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.25,
+              0.25,
+              0.28
+            ],
+            "Size": [
+              0.5,
+              4,
+              0.5
+            ],
+            "CFrame": [
+              -22.25,
+              4,
+              -36.25,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "Stall1Post3": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.25,
+              0.25,
+              0.28
+            ],
+            "Size": [
+              0.5,
+              4,
+              0.5
+            ],
+            "CFrame": [
+              -27.75,
+              4,
+              -33.75,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "Stall1Post4": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.25,
+              0.25,
+              0.28
+            ],
+            "Size": [
+              0.5,
+              4,
+              0.5
+            ],
+            "CFrame": [
+              -22.25,
+              4,
+              -33.75,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "Stall1Awning": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              1.0,
+              0.2,
+              0.2
+            ],
+            "Size": [
+              7,
+              0.3,
+              4
+            ],
+            "CFrame": [
+              -25,
+              6,
+              -35,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "Stall2Counter": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.5,
+              0.35,
+              0.15
+            ],
+            "Size": [
+              6,
+              2,
+              3
+            ],
+            "CFrame": [
+              25,
+              2,
+              35,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "Stall2Post1": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.25,
+              0.25,
+              0.28
+            ],
+            "Size": [
+              0.5,
+              4,
+              0.5
+            ],
+            "CFrame": [
+              22.25,
+              4,
+              33.75,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "Stall2Post2": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.25,
+              0.25,
+              0.28
+            ],
+            "Size": [
+              0.5,
+              4,
+              0.5
+            ],
+            "CFrame": [
+              27.75,
+              4,
+              33.75,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "Stall2Post3": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.25,
+              0.25,
+              0.28
+            ],
+            "Size": [
+              0.5,
+              4,
+              0.5
+            ],
+            "CFrame": [
+              22.25,
+              4,
+              36.25,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "Stall2Post4": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.25,
+              0.25,
+              0.28
+            ],
+            "Size": [
+              0.5,
+              4,
+              0.5
+            ],
+            "CFrame": [
+              27.75,
+              4,
+              36.25,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "Stall2Awning": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              1.0,
+              0.8,
+              0.0
+            ],
+            "Size": [
+              7,
+              0.3,
+              4
+            ],
+            "CFrame": [
+              25,
+              6,
+              35,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "Stall3Counter": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.5,
+              0.35,
+              0.15
+            ],
+            "Size": [
+              6,
+              2,
+              3
+            ],
+            "CFrame": [
+              25,
+              2,
+              -35,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "Stall3Post1": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.25,
+              0.25,
+              0.28
+            ],
+            "Size": [
+              0.5,
+              4,
+              0.5
+            ],
+            "CFrame": [
+              22.25,
+              4,
+              -36.25,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "Stall3Post2": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.25,
+              0.25,
+              0.28
+            ],
+            "Size": [
+              0.5,
+              4,
+              0.5
+            ],
+            "CFrame": [
+              27.75,
+              4,
+              -36.25,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "Stall3Post3": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.25,
+              0.25,
+              0.28
+            ],
+            "Size": [
+              0.5,
+              4,
+              0.5
+            ],
+            "CFrame": [
+              22.25,
+              4,
+              -33.75,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "Stall3Post4": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.25,
+              0.25,
+              0.28
+            ],
+            "Size": [
+              0.5,
+              4,
+              0.5
+            ],
+            "CFrame": [
+              27.75,
+              4,
+              -33.75,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "Stall3Awning": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.0,
+              0.4,
+              1.0
+            ],
+            "Size": [
+              7,
+              0.3,
+              4
+            ],
+            "CFrame": [
+              25,
+              6,
+              -35,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "WallN1": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.6,
+              0.6,
+              0.65
+            ],
+            "Size": [
+              76,
+              2,
+              1
+            ],
+            "CFrame": [
+              -40,
+              2,
+              -79.5,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "WallS1": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.6,
+              0.6,
+              0.65
+            ],
+            "Size": [
+              76,
+              2,
+              1
+            ],
+            "CFrame": [
+              -40,
+              2,
+              79.5,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "WallN2": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.6,
+              0.6,
+              0.65
+            ],
+            "Size": [
+              76,
+              2,
+              1
+            ],
+            "CFrame": [
+              40,
+              2,
+              -79.5,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "WallS2": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.6,
+              0.6,
+              0.65
+            ],
+            "Size": [
+              76,
+              2,
+              1
+            ],
+            "CFrame": [
+              40,
+              2,
+              79.5,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "WallW1": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.6,
+              0.6,
+              0.65
+            ],
+            "Size": [
+              1,
+              2,
+              76
+            ],
+            "CFrame": [
+              -79.5,
+              2,
+              -40,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "WallE1": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.6,
+              0.6,
+              0.65
+            ],
+            "Size": [
+              1,
+              2,
+              76
+            ],
+            "CFrame": [
+              79.5,
+              2,
+              -40,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "WallW2": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.6,
+              0.6,
+              0.65
+            ],
+            "Size": [
+              1,
+              2,
+              76
+            ],
+            "CFrame": [
+              -79.5,
+              2,
+              40,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "WallE2": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.6,
+              0.6,
+              0.65
+            ],
+            "Size": [
+              1,
+              2,
+              76
+            ],
+            "CFrame": [
+              79.5,
+              2,
+              40,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "Crate1": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.5,
+              0.35,
+              0.15
+            ],
+            "Size": [
+              3,
+              3,
+              3
+            ],
+            "CFrame": [
+              15,
+              2.5,
+              55,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "Crate2": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.8,
+              0.5,
+              0.2
+            ],
+            "Size": [
+              3,
+              3,
+              3
+            ],
+            "CFrame": [
+              18,
+              2.5,
+              55,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "Crate3": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.6,
+              0.4,
+              0.1
+            ],
+            "Size": [
+              3,
+              3,
+              3
+            ],
+            "CFrame": [
+              16.5,
+              5.5,
+              55,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "Barrel1": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.8,
+              0.4,
+              0.1
+            ],
+            "Size": [
+              3,
+              2.5,
+              2.5
+            ],
+            "Shape": "Cylinder",
+            "CFrame": [
+              -15,
+              2.25,
+              55,
+              0.0,
+              -1.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "Barrel2": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Locked": true,
+            "Color": [
+              0.5,
+              0.5,
+              0.5
+            ],
+            "Size": [
+              3,
+              2.5,
+              2.5
+            ],
+            "Shape": "Cylinder",
+            "CFrame": [
+              -18,
+              2.25,
+              55,
+              0.0,
+              -1.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        }
+      }
+    },
+    "Lighting": {
+      "$properties": {
+        "Ambient": [
+          0.35,
+          0.3,
+          0.25
+        ],
+        "Brightness": 2,
+        "GlobalShadows": true,
+        "Outlines": false,
+        "Technology": "Voxel"
+      }
+    },
+    "SoundService": {
+      "$properties": {
+        "RespectFilteringEnabled": true
+      }
+    }
+  }
+}
